@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <View
+        android:id="@+id/position_color"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        tools:background="#ff993366" />
+
+    <TextView
+        android:id="@+id/crew_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/position_color"
+        android:layout_toStartOf="@+id/race_multiplier"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        tools:text="crew name" />
+
+    <TextView
+        android:id="@+id/crew_race"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/position_color"
+        android:layout_alignBottom="@+id/position_color"
+        android:layout_toStartOf="@+id/race_multiplier"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        tools:text="crew race" />
+
+    <TextView
+        android:id="@+id/race_multiplier"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        tools:text="x3 x2 x1" />
+
+</RelativeLayout>

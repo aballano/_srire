@@ -1,0 +1,39 @@
+# Gradle junk
+**/build
+.gradle
+/local.properties
+dump.txt
+
+# IDEA/Android Studio ignores
+*.iml
+*.ipr
+*.iws
+**/.idea/dbnavigator.xml
+**/.idea/workspace.xml
+**/.idea/compiler.xml
+**/.idea/.name
+**/.idea/tasks.xml
+**/.idea/datasources.xml
+**/.idea/dataSources.ids
+**/.idea/gradle.xml
+**/.idea/misc.xml
+**/.idea/modules.xml
+**/.idea/libraries
+**/.idea/dictionaries
+**/.idea/copyright
+**/.idea/runConfigurations.xml
+**/.idea/vcs.xml
+**/.idea/scopes
+*/.idea
+.navigation
+captures
+
+# Mac OS junk
+.DS_Store
+
+#
+# ignoring R.java in library modules test folders
+# (gradle bug see https://github.com/robolectric/robolectric/issues/1796)
+#
+**/src/test/**/R.java
+
